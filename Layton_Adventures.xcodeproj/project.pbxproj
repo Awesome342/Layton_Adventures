@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34D707B115F80BE20026FD52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34D707B015F80BE20026FD52 /* main.cpp */; };
+		34D707B315F80BE20026FD52 /* Layton_Adventures.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 34D707B215F80BE20026FD52 /* Layton_Adventures.1 */; };
+		34D707BB15F80C080026FD52 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D707BA15F80BF60026FD52 /* SDLMain.m */; };
+		34D707BD15F80C170026FD52 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D707BC15F80C170026FD52 /* SDL.framework */; };
+		34D707BF15F80C1E0026FD52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D707BE15F80C1E0026FD52 /* Cocoa.framework */; };
+		34D707C115F80C250026FD52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D707C015F80C250026FD52 /* Foundation.framework */; };
+		34D707F315F94DC00026FD52 /* sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34D707F215F94DC00026FD52 /* sprite.cpp */; };
+		34D707F815F9870F0026FD52 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D707F715F9870F0026FD52 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		34D707AA15F80BE20026FD52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				34D707B315F80BE20026FD52 /* Layton_Adventures.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34D707AC15F80BE20026FD52 /* Layton_Adventures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Layton_Adventures; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D707B015F80BE20026FD52 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = main.cpp; sourceTree = "<group>"; };
+		34D707B215F80BE20026FD52 /* Layton_Adventures.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Layton_Adventures.1; sourceTree = "<group>"; };
+		34D707B915F80BF60026FD52 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		34D707BA15F80BF60026FD52 /* SDLMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		34D707BC15F80C170026FD52 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		34D707BE15F80C1E0026FD52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		34D707C015F80C250026FD52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34D707F115F94DB80026FD52 /* sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sprite.h; sourceTree = "<group>"; };
+		34D707F215F94DC00026FD52 /* sprite.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = sprite.cpp; sourceTree = "<group>"; };
+		34D707F715F9870F0026FD52 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D707A915F80BE20026FD52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D707F815F9870F0026FD52 /* OpenGL.framework in Frameworks */,
+				34D707C115F80C250026FD52 /* Foundation.framework in Frameworks */,
+				34D707BF15F80C1E0026FD52 /* Cocoa.framework in Frameworks */,
+				34D707BD15F80C170026FD52 /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34D707A115F80BE20026FD52 = {
+			isa = PBXGroup;
+			children = (
+				34D707F715F9870F0026FD52 /* OpenGL.framework */,
+				34D707AF15F80BE20026FD52 /* Layton_Adventures */,
+				34D707AD15F80BE20026FD52 /* Products */,
+				34D707B915F80BF60026FD52 /* SDLMain.h */,
+				34D707BA15F80BF60026FD52 /* SDLMain.m */,
+				34D707C015F80C250026FD52 /* Foundation.framework */,
+				34D707BE15F80C1E0026FD52 /* Cocoa.framework */,
+				34D707BC15F80C170026FD52 /* SDL.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		34D707AD15F80BE20026FD52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D707AC15F80BE20026FD52 /* Layton_Adventures */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D707AF15F80BE20026FD52 /* Layton_Adventures */ = {
+			isa = PBXGroup;
+			children = (
+				34D707B015F80BE20026FD52 /* main.cpp */,
+				34D707F115F94DB80026FD52 /* sprite.h */,
+				34D707F215F94DC00026FD52 /* sprite.cpp */,
+				34D707B215F80BE20026FD52 /* Layton_Adventures.1 */,
+			);
+			path = Layton_Adventures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D707AB15F80BE20026FD52 /* Layton_Adventures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D707B615F80BE20026FD52 /* Build configuration list for PBXNativeTarget "Layton_Adventures" */;
+			buildPhases = (
+				34D707A815F80BE20026FD52 /* Sources */,
+				34D707A915F80BE20026FD52 /* Frameworks */,
+				34D707AA15F80BE20026FD52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Layton_Adventures;
+			productName = Layton_Adventures;
+			productReference = 34D707AC15F80BE20026FD52 /* Layton_Adventures */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D707A315F80BE20026FD52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Madison Junior High School";
+			};
+			buildConfigurationList = 34D707A615F80BE20026FD52 /* Build configuration list for PBXProject "Layton_Adventures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34D707A115F80BE20026FD52;
+			productRefGroup = 34D707AD15F80BE20026FD52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D707AB15F80BE20026FD52 /* Layton_Adventures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D707A815F80BE20026FD52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D707BB15F80C080026FD52 /* SDLMain.m in Sources */,
+				34D707B115F80BE20026FD52 /* main.cpp in Sources */,
+				34D707F315F94DC00026FD52 /* sprite.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		34D707B415F80BE20026FD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		34D707B515F80BE20026FD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		34D707B715F80BE20026FD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34D707B815F80BE20026FD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D707A615F80BE20026FD52 /* Build configuration list for PBXProject "Layton_Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D707B415F80BE20026FD52 /* Debug */,
+				34D707B515F80BE20026FD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D707B615F80BE20026FD52 /* Build configuration list for PBXNativeTarget "Layton_Adventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D707B715F80BE20026FD52 /* Debug */,
+				34D707B815F80BE20026FD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D707A315F80BE20026FD52 /* Project object */;
+}
